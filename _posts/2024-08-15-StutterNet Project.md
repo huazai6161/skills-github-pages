@@ -16,7 +16,7 @@ Stuttering, also known as stammering, is a speech disorder characterized externa
 
 ## Model
 
-!()[stutternet.png "StutterNet Architecture"]
+!()[_posts/stutternet.png "StutterNet Architecture"]
 
 ## Dataset
 
