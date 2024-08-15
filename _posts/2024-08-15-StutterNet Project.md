@@ -12,7 +12,11 @@ author: Yuhua Su
 
 ## Abstract
 
+Stuttering, also known as stammering, is a speech disorder characterized externally by involuntary repetitions and prolongations of sounds, syllables, words, or phrases as well as involuntary silent pauses or blocks in which the person who stutters is unable to produce sounds. This project adopts StutterNet, a time-delay neural network suitable for capturing contextual aspects of the disfluent utterances, and apply it on SEP-28k, a dataset containing over 28k clips labeled with five event types including blocks, prolongations, sound repetitions, word repetitions, and interjections, to tackle stuttering recognition task.
+
 ## Model
+
+![screenshot](stutternet.png "StutterNet Architecture")
 
 ## Dataset
 
