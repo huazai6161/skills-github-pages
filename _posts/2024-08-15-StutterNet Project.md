@@ -16,7 +16,7 @@ Stuttering, also known as stammering, is a speech disorder characterized externa
 
 ## Model
 
-We adopt mel spectrogram with 80 filterbanks and sample rate of 16000 as feature extractor (differing from author of original paper, who use MFCC). Then, treating the task as a multiple binary classification problem, the features are fed into TDNN, which consists of five time delay layers with the first three focusing on the contextual frames of $$(t-2, t-1, t, t+1, t+2), (t-2, t, t+2), (t-3, t, t+3)$$ with dilation of 1, 2 and 3 respectively. Then follow fully connected layers for classification. Each layer is followed by ReLU activation function.
+We adopt mel spectrogram with 80 filterbanks and sample rate of 16000 as feature extractor (differing from author of original paper, who use MFCC). Then, treating the task as a multiple binary classification problem, the features are fed into TDNN, which consists of five time delay layers with the first three focusing on the contextual frames of (t-2, t-1, t, t+1, t+2), (t-2, t, t+2), (t-3, t, t+3) with dilation of 1, 2 and 3 respectively. Then follow fully connected layers for classification. Each layer is followed by ReLU activation function.
 [![stutternet.png](https://imgos.cn/2024/08/16/66bee4a535ec8.png)](https://imgos.cn/2024/08/16/66bee4a535ec8.png)
 
 ## Dataset
