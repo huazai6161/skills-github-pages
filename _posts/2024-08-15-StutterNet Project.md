@@ -29,7 +29,7 @@ We train and test the model on [SEP28K dataset](https://github.com/apple/ml-stut
 
 ## Training details
 
-We trained two models in total, where the second model is scaled by a channel multiplier of X. The mean value of two outputs is then fed into the sigmoid function for binary classification. Since each sample can contribute to multiple classes with negative labels, there is an extreme imbalance between positive and negative labels in each class. To tackle this problem, we empirically assign a larger weight to sample with positive label when designing loss function: [BCEWithLogitsLoss](https://pytorch.org/docs/stable/generated/torch.nn.BCEWithLogitsLoss.html) is used in our project instead of the classic cross-entropy loss.
+We trained two models in total, where the second model is scaled by a channel multiplier of 2. The mean value of two outputs is then fed into the sigmoid function for binary classification. Since each sample can contribute to multiple classes with negative labels, there is an extreme imbalance between positive and negative labels in each class. To tackle this problem, we empirically assign a larger weight to sample with positive label when designing loss function: [BCEWithLogitsLoss](https://pytorch.org/docs/stable/generated/torch.nn.BCEWithLogitsLoss.html) is used in our project instead of the classic cross-entropy loss.
 
 ## Generating prediction
 
