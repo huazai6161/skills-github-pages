@@ -25,7 +25,7 @@ We adopt mel spectrogram with 80 filterbanks and sample rate of 16000 as feature
 We train and test the model on [SEP28K dataset](https://github.com/apple/ml-stuttering-events-dataset/), a dataset containing over 28k clips labeled with five disfluency event types including blocks, prolongations, sound repetitions, word repetitions, and interjections. Audio comes from public podcasts largely consisting of people who stutter interviewing other people who stutter.
 
 [![屏幕截图 2024-08-16 135026.png](https://imgos.cn/2024/08/16/66bee7b042553.png)](https://imgos.cn/2024/08/16/66bee7b042553.png)
-*Distribution of annotations. Quote from [SEP-28k: A Dataset for Stuttering Event Detection From Podcasts With People Who Stutter](https://arxiv.org/abs/2102.12394)*
+*Distribution of annotations. Quote from [SEP-28k: A Dataset for Stuttering Event Detection From Podcasts With People Who Stutter](https://arxiv.org/abs/2102.12394).*
 
 ## Training details
 
